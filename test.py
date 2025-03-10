@@ -19,5 +19,7 @@ merged_df["total_amount"] = merged_df["requested_amount"] + merged_df["approved_
 
 # # Группируем по промокоду и считаем сумму
 result = merged_df.groupby("promocode")["total_amount"].sum().reset_index()
-
 print(result)
+
+with open("result.txt", "w") as f:
+    f.write(result.to_string(index=False))
