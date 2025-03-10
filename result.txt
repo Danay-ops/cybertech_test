@@ -1,0 +1,6 @@
+  promocode  total_amount
+0       76L         36000
+1       DL8         93900
+2      Q2W9         48000
+3       QQ2        166750
+4      ZL4V        113500
